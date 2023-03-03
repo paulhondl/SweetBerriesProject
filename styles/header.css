@@ -1,0 +1,86 @@
+header {
+  font-family: 'Roboto', sans-serif;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: var(--padding-section-desktop);
+  position: relative;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header a:active {
+  opacity: 0.8;
+}
+
+header button {
+  margin-inline: 20.5px; /* accounting for nav being 41px wider than button --> aligning footer and header logo exactly above each other */
+  background-color: var(--text-primary);
+  color: var(--text-invert);
+  border-radius: 1.75em;
+  padding: 0.75em 1.25em;
+  cursor: pointer;
+  transition: transform 100ms ease;
+  border-color: transparent;
+}
+
+header button:hover {
+  opacity: 0.8;
+}
+
+header button:active {
+  transform: scale(0.95);
+}
+
+#menu {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  header {
+    padding-inline: var(--padding-section-tablet);
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    justify-content: center;
+  }
+  
+  header button,
+  header nav {
+    display: none;
+  }
+
+  #menu {
+    font-size: 1.5rem;
+    display: unset;
+    position: absolute;
+    right: var(--padding-section-mobile);
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 350px) {
+  header {
+    justify-content: flex-start;
+    padding-inline: 10px;
+  }
+}

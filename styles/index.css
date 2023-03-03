@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* COLORS */
+  --text-primary: #000000;
+  --text-secondary: #646464;
+  --text-invert: #FFFFFF;
+  --accent: #FEBD2F;
+
+  /* BOX-MODEL */
+  --padding-section-desktop: 80px;
+  --padding-section-tablet: 40px;
+  --padding-section-mobile: 20px;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Roboto Serif', serif;
+}

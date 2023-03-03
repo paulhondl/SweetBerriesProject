@@ -1,0 +1,18 @@
+footer {
+  height: 80px;
+  background-color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  display: block;
+  width: 130px;
+}
+
+@media (max-width: 700px) {
+  footer img {
+    width: 110px;
+  }
+}
