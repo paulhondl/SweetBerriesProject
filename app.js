@@ -10,3 +10,9 @@ menu.addEventListener("click", () => {
 navLinks.forEach(link => link.addEventListener("click", () => {
   navBar.classList.toggle("active");
 }))
+
+window.addEventListener("resize", () => { 
+  if (window.innerWidth > 700) {
+    navBar.classList.remove("active");
+  }
+})
