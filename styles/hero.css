@@ -46,7 +46,6 @@
     justify-content: center;
     gap: var(--padding-section-tablet);
     padding-inline: var(--padding-section-tablet);
-
   }
 
   .hero-text {
@@ -75,6 +74,7 @@
 
   .hero-text p {
     font-size: 1.25rem;
+    line-height: 1.5;
   }
   
 }
