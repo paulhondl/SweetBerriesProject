@@ -62,9 +62,11 @@ header button:active {
 }
 
 @media (max-width: 1000px) {
+
   header {
     padding-inline: var(--padding-section-tablet);
   }
+  
 }
 
 @media (max-width: 700px) {

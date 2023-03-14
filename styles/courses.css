@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 710px) {
   .courses-grid {
     padding-inline: var(--padding-section-mobile);
   }
