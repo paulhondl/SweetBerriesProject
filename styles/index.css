@@ -17,7 +17,16 @@
   --padding-section-mobile: 20px;
 }
 
+
 body {
   background-color: #E5E5E5;
   font-family: 'Roboto Serif', serif;
 }
+
+@media (min-width: 1440px) {
+  header, main, footer {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
