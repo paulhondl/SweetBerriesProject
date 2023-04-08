@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* Awesome work on using CSS variables! */
 :root {
   /* COLORS */
   --text-primary: #000000;
@@ -16,7 +16,7 @@
   --padding-section-tablet: 40px;
   --padding-section-mobile: 20px;
 }
-
+/* Great work on being detailed oriented and adding the right fonts to each component of the website. */
 
 body {
   background-color: #E5E5E5;

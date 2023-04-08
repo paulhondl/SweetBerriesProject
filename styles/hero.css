@@ -12,7 +12,7 @@
 .hero-image-container {
   flex: 1;
 }
-
+/* Nice work on using Flexbox properly to create some of the components. */
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* Nice work on making the images responsive by using % units for its size. */
 .hero-image-container img {
   max-width: 100%;
   display: block;

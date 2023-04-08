@@ -1,3 +1,6 @@
+/* You didn’t use grid-template-areas in your project.
+
+You can use the grid template areas for the main layout where you can define where each section should be located such as the navbar, banner, card-container, footer */
 .courses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -5,7 +8,9 @@
   padding-inline: var(--padding-section-desktop);
   margin-bottom: 80px;
 }
+/* You have used CSS Grid and Flexbox in your project however you haven’t used them together properly.
 
+The proper way to use them together would be to make the main layout a CSS Grid layout that would have the navbar, banner, card-container, and footer as grid items. */
 .course {
   background: #FFFFFF;
   box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
@@ -69,7 +74,7 @@
   transform: translate(-50%, -50%);
   background: transparent;
 }
-
+/* Great work on making your project responsive using media queries properly! */
 @media (max-width: 1000px) {
   .courses-grid {
     padding-inline: var(--padding-section-tablet);
